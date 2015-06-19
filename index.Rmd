@@ -1,0 +1,61 @@
+---
+title       : The ACME car super seller
+subtitle    : Maximise your earning potential
+author      : James Longman
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+--- 
+
+<h2 style="color:#000000;">Sell more efficeintly</h2>
+
+Our <span style="font-weight:bold; color:#ff0000">patented</span> tool is designed to help you <span style="font-weight:bold; color:#ff0000">maximise</span> your selling potential.
+
+Handles the unique requirements of each customer and guides them to a short list of cars quickly and easily.
+</span>
+
+--- .class #id bg:#ccccff
+
+<h2 style="color:#000000;">Simplicity in design</h2>
+
+Fool proof user interface means no delay and <span style="font-weight:bold; color:#ff0000">no looking foolish</span>.
+
+We know you hate computers and couldn't tell one end of a website from your own armpit which is why this tool is designed to be so easy to use you won't even realise just how sophisticated it is behind the scenes.
+
+Using just a simple multi-select input all the power of the tool is unleashed.  Just let the customer choose from the following options.
+
+``` {r, echo=FALSE}
+
+colnames(mtcars)
+
+```
+
+--- .class #id
+
+<h2 style="color:#000000;">Targetted upselling to maximise your revenue</h2>
+
+The tool returns a list of desirable vehicles in a manner that intuitively guides the customer to a higher specification of car.
+
+Only those with above average values for the desired specs are shown thus naturally giving the customer what they requested and removing the chance of a low-spec purcahse
+
+e.g. If the customer decides to choose horse power and weight then:
+``` {r, echo=FALSE}
+
+mtcars[mtcars$hp > mean(mtcars$hp) & mtcars$wt > mean(mtcars$wt) ,]
+
+```
+
+--- .class #id bg:#ccccff 
+
+<h2 style="color:#000000;">Clear results, clear profits</h2>
+
+The <span style="font-weight:bold; color:#ff0000">clarity of results</span> shown by the tool means you <span style="font-weight:bold; color:#ff0000">can't fail</span> to seal the deal.
+
+Our patented algorithmic system gives your customer belief they are in control and you that luxuary trip to the Maldives that you've always craved.
+
+Buy smart.  Buy ACME.
+
